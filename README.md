@@ -1,4 +1,3 @@
-````md
 # Smart Irrigation IoT System
 
 A full-stack IoT-based Smart Irrigation System that automates irrigation and provides machine-learning–based crop recommendations using real-time sensor data and a web-based dashboard.
@@ -66,7 +65,7 @@ The project is divided into three major layers:
 
 ## Project Structure
 
-```text
+```text 
 Smart_Irrigation_System/
 │
 ├── arduino/          Arduino irrigation control code
@@ -76,7 +75,7 @@ Smart_Irrigation_System/
 ├── server/           Node.js backend server
 ├── .gitignore
 └── README.md
-````
+```
 
 ---
 
@@ -140,5 +139,5 @@ python server.py
 ## Author
 
 Shivansh Suryan
-GitHub: [https://github.com/shivanshsuryan04](https://github.com/shivanshsuryan04)
-LinkedIn: [https://www.linkedin.com/in/shivanshsuryan04](https://www.linkedin.com/in/shivanshsuryan04)
+* GitHub: [https://github.com/shivanshsuryan04](https://github.com/shivanshsuryan04)
+* LinkedIn: [https://www.linkedin.com/in/shivanshsuryan04](https://www.linkedin.com/in/shivanshsuryan04)
