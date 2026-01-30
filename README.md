@@ -1,3 +1,4 @@
+````md
 # Smart Irrigation IoT System
 
 A full-stack IoT-based Smart Irrigation System that automates irrigation and provides machine-learning–based crop recommendations using real-time sensor data and a web-based dashboard.
@@ -17,54 +18,55 @@ The system collects real-time environmental data using physical sensors connecte
 The project is divided into three major layers:
 
 ### IoT Layer
-- Arduino controls irrigation hardware and sensor interfacing
-- ESP8266 manages Wi-Fi connectivity and data transmission
+- Arduino controls irrigation hardware and sensor interfacing  
+- ESP8266 manages Wi-Fi connectivity and data transmission  
 
 ### Backend and Machine Learning Layer
-- Node.js and Express.js handle API requests and data flow
-- Python-based machine learning model predicts crop suitability based on input parameters
+- Node.js and Express.js handle API requests and data flow  
+- Python-based machine learning model predicts crop suitability based on input parameters  
 
 ### Frontend Layer
-- React.js dashboard for real-time monitoring and analytics
-- Responsive user interface built with Tailwind CSS
+- React.js dashboard for real-time monitoring and analytics  
+- Responsive user interface built with Tailwind CSS  
 
 ---
 
 ## Key Features
 
-- Real-time sensor data monitoring
-- Automated smart irrigation control
-- Machine-learning–based crop recommendation
-- Interactive analytics dashboard
-- Modular and scalable architecture
-- REST API–based backend communication
+- Real-time sensor data monitoring  
+- Automated smart irrigation control  
+- Machine-learning–based crop recommendation  
+- Interactive analytics dashboard  
+- Modular and scalable architecture  
+- REST API–based backend communication  
 
 ---
 
 ## Technology Stack
 
 ### Frontend
-- React.js
-- Tailwind CSS
-- Context API
+- React.js  
+- Tailwind CSS  
+- Context API  
 
 ### Backend
-- Node.js
-- Express.js
+- Node.js  
+- Express.js  
 
 ### Machine Learning
-- Python
-- Flask
-- Scikit-learn
+- Python  
+- Flask  
+- Scikit-learn  
 
 ### IoT Hardware
-- Arduino
-- ESP8266
+- Arduino  
+- ESP8266  
 
 ---
 
 ## Project Structure
 
+```text
 Smart_Irrigation_System/
 │
 ├── arduino/          Arduino irrigation control code
@@ -74,6 +76,7 @@ Smart_Irrigation_System/
 ├── server/           Node.js backend server
 ├── .gitignore
 └── README.md
+````
 
 ---
 
@@ -81,25 +84,39 @@ Smart_Irrigation_System/
 
 ### Clone the Repository
 
+```bash
 git clone https://github.com/shivanshsuryan04/smart-irrigation-iot-system.git
 cd smart-irrigation-iot-system
+```
+
+---
 
 ### Frontend Setup
 
+```bash
 cd client
 npm install
 npm start
+```
+
+---
 
 ### Backend Setup
 
+```bash
 cd server
 npm install
 node server.js
+```
+
+---
 
 ### Machine Learning Server Setup
 
+```bash
 cd backend_ml
 python server.py
+```
 
 ---
 
@@ -125,5 +142,3 @@ python server.py
 Shivansh Suryan
 GitHub: [https://github.com/shivanshsuryan04](https://github.com/shivanshsuryan04)
 LinkedIn: [https://www.linkedin.com/in/shivanshsuryan04](https://www.linkedin.com/in/shivanshsuryan04)
-Just tell me what you want next.
-```
