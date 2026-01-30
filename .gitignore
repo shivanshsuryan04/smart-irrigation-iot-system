@@ -1,0 +1,21 @@
+# Node dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pkl
+
+# React build
+client/build/
+client/dist/
+
+# Logs
+*.log
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
